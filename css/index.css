@@ -1,0 +1,1095 @@
+/*@import url(https://fonts.googleapis.com/css?family=Roboto:300);*/
+
+.login-page {
+  width: 360px;
+  padding: 1.5% 0 0;
+  margin: auto;
+  background: transparent;
+}
+.form {
+  position: relative;
+  z-index: 1;
+  background: black;
+  max-width: 350px;
+  margin: 0 auto;
+  padding: 25px;
+  text-align: center;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+.form input,
+.form select{
+  font-family: sans-serif;
+  border-radius: 4px;
+  background: #f2f2f2;
+  width: 100%;
+  border: 1px solid #fff;
+  margin: 0 0 15px;
+  padding: 15px;
+  box-sizing: border-box;
+  font-size: 20px;
+  background: transparent;
+  color: #ffffff;
+  opacity: 0.8;
+}
+.form button {
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  outline: 0;
+  background: transparent;
+  width: 100%;
+  border: 1px solid #fff;
+  border-radius: 4px;
+  padding: 15px;
+  color: #FFFFFF;
+  font-size: 20px;
+  -webkit-transition: all 0.3 ease;
+  transition: all 0.3 ease;
+  cursor: pointer;
+}
+.form select:hover, .form button:hover,.form button:active,.form button:focus {
+  background: #0f0f0f;
+  opacity: 0.8;
+}
+.form .message {
+  margin: 15px 0 0;
+  color: #ffffff;
+  font-size: 15px;
+}
+.form .message a {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 14px;
+  opacity: 0.6;
+}
+.form .register-form {
+  display: none;
+}
+.container {
+  position: relative;
+  z-index: 1;
+  max-width: 300px;
+  margin: 0 auto;
+}
+.container:before, .container:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.container .info {
+  margin: 50px auto;
+  text-align: center;
+}
+.container .info h1 {
+  margin: 0 0 15px;
+  padding: 0;
+  font-size: 36px;
+  font-weight: 300;
+  color: #1a1a1a;
+}
+.container .info span {
+  color: #4d4d4d;
+  font-size: 12px;
+}
+.container .info span a {
+  color: #000000;
+  text-decoration: none;
+}
+.container .info span .fa {
+  color: #EF3B3A;
+}
+body {
+  background: #000000; /* fallback for old browsers/*
+  background: -webkit-linear-gradient(right, #76b852, #8DC26F);
+  background: -moz-linear-gradient(right, #76b852, #8DC26F);
+  background: -o-linear-gradient(right, #76b852, #8DC26F);
+  background: linear-gradient(to left, #76b852, #8DC26F);*/
+  font-family: "Roboto", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;  
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;    
+}
+.body{
+  background-image: url("../img/index-background.jpg");
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  top: -1px; bottom: -1px;
+  margin: 0 auto;
+  transform: scale(1.1);
+}
+::-webkit-input-placeholder{
+  color: rgba(255,255,255,0.8);
+}
+
+*{
+	background-color: #fff;
+	box-sizing: border-box;
+}
+body{
+	margin:0;
+	font-family: arial, sans;
+}
+.wrapper{
+	background: #fff;
+	box-sizing: border-box;
+	width: 100%;
+	margin: 0 auto;
+}
+.contenido{
+	box-sizing: border-box;
+	background: transparent;
+	padding: 0 0 14px;
+	margin: auto;
+	z-index: 2;
+	width: 100%;
+	align-items: center;
+}
+i{
+	background: transparent;
+}
+h2{
+	background: transparent;
+	text-transform: uppercase;
+	color: #000;
+	font-size: 19px;
+	padding: 0;
+	margin: 0 auto; 
+	text-align: center;
+	width: 100%;
+}
+.topnav{
+	overflow: hidden;
+	background: #2978A0; /*background-color: #9FA874;*/
+}
+.topnav a{
+	float: left;
+	display: block;
+	color: #fff;
+	text-align: center;
+	padding: 15px 14px 15px 14px;
+	text-decoration: none;
+	font-size: 20px;
+	margin: 0 auto;
+	margin-bottom: -1px;
+	background-color: #2978A0;
+}
+.topnav a:hover{
+	color: #fff;
+	background-color: #0E90C4;
+}
+.topnav #acerca,.topnav #salir{
+	float: right;
+}
+.topnav i{
+	float: right;
+	display: none;
+}
+.entrada-texto:hover{
+	background-color: #9BD1E5;
+	opacity: 0.8;
+	cursor: pointer;
+}
+.entrada-texto{
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	outline: none;
+	width: 100%;
+	border: none;
+	border-radius: 25px;
+	border: 1px solid #000;
+	margin: 0;
+	font: 20px Arial, Helvetica, sans-serif;
+	height: 45px;
+	color: #000;
+	padding-left: 15px;
+}
+.indicadores{
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	outline: none;
+	width: 1px;
+	height: 1px;
+	border: none;
+	border-radius: 4px;
+	border: 1px solid #000;
+	margin: 0 auto;
+	font: 1px Arial, Helvetica, sans-serif;
+	color: #000;
+	padding-left: 30px;
+	display: none;
+}
+.boton{
+	background-color: #000;
+	background: transparent;
+	border: 1px solid #000;
+	border-radius: 4px;
+	display: inline-block;
+	cursor: pointer;
+	color: #000;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 30px;
+	padding: 12px;
+	text-decoration: none;
+	text-transform: uppercase;
+	width: 60%;
+	margin-left: 20%;
+}
+.boton:hover{
+	color: #fff;
+	background-color: #004574;
+	opacity: 0.8;
+}
+.wrapper-registrar{
+	box-sizing: border-box;
+	width: 100%;
+	margin: 0 auto;
+	padding: 10px;
+}
+.datos-registrar{
+	box-sizing: border-box;
+	align-items: center;
+	background: transparent; /*background-color: #ffffff;*/
+	float: left;
+	width: 100%;
+}
+.datos-registrar .entrada-texto{
+	margin: 5px 0 0 0;
+}
+.datos-registrar textarea{
+	height: 150px;
+}
+.datos-registrar #selcarrera,
+.datos-registrar #selperiodo{
+	width: 50%;
+	float: left;
+}
+
+
+.datos-registrar #fecha,
+.datos-registrar #fecha2,
+.datos-registrar #fecha3,
+.datos-registrar #fecha4,
+.datos-registrar #fecha5{
+	width: 28%;
+	margin: 5px 1% 0 0;
+	float: left;
+}
+.datos-registrar #horas_sesion1,
+.datos-registrar #horas_sesion2,
+.datos-registrar #horas_sesion3,
+.datos-registrar #horas_sesion4,
+.datos-registrar #horas_sesion5{
+	width: 29%;
+	float: left;
+}
+.datos-registrar .sesiones{
+	text-align: center;
+	box-sizing: border-box;
+	width: 20%;
+	height: 35px;
+	font-size: 25px;
+	float: left;
+	margin: 10px 1% 0 0;
+}
+
+.datos-registrar input[type=checkbox]{
+	display: none;
+}
+.datos-registrar input[type=checkbox]:checked + .sesiones{
+	background-color: #9BD1E5;
+	border-radius: 15px;
+}
+
+
+
+
+.datos-registrar #npractica{
+	width: 10%;
+	float: left;
+}
+.datos-registrar #practica{
+	width: 90%;
+	float: left;
+}
+.datos-registrar #sellaboratorio{
+	width: 80%;
+	float: left;
+}
+
+.datos-registrar #capacidad{
+	width: 20%;
+	float: left;
+}
+
+.datos-registrar #semestre,
+.datos-registrar #grupo,
+.datos-registrar #alumnos,
+.datos-registrar #turno{
+	width: 25%;
+	float: left;
+}
+.datos-registrar #capacidad,
+.datos-registrar #npract{
+	text-align: center;
+}
+
+
+.modal{
+	display: none;
+	position: fixed;
+	z-index: 1;
+	padding-top: 30px;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	overflow: auto;
+	background-color: rgb(0,0,0);
+	background-color: rgba(0,0,0,0.4);
+}
+.horas-registrar{
+	background-color: #fefefe;
+	margin: auto;
+	padding: 20px;
+	border: 1px solid #888;
+	width: 60%;
+}
+.close{
+	color:	#aaaaaa;
+	float: right;
+	font-size: 28px;
+	font-weight: bold;
+}
+.close:hover,
+.close:focus{
+	color: #000;
+	text-decoration: none;
+	cursor: pointer;
+}
+.fecha_horas{
+	font-size: 23px;
+	font-weight: bold;
+}
+.check{
+	position: relative;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	outline: none;
+	width: 20%;
+	border: none;
+	background: transparent;
+	height: 30px;
+	margin: 0 7% auto;
+	cursor: pointer;
+	padding: 0;
+}
+.label-horas, .label-borrar{
+	padding: 0;
+	margin: 8px auto;
+	display: block;
+	font: Arial, Helvetica;
+	vertical-align: middle;
+	font-size: 20px;
+	color: #000;
+	width: 60%;
+	border-radius: 25px;
+}
+.label-horas:hover{
+	background-color: #008CC5;
+	opacity: 0.8;
+	color: #fff;
+	cursor: pointer;
+}
+textarea{
+	resize: none;
+}
+
+
+.wrapper-editar{
+	box-sizing: border-box;
+	width: 100%;
+	float: left;
+	padding: 10px 0 0 0;
+	margin: 0 auto;
+}
+.datos-editar{
+	width: 99%;
+	float: left;
+}
+.datos-editar #nombre,
+.datos-editar #tipo,
+.datos-editar #opciones,
+.datos-editar #resultados,
+.datos-editar #carrera,
+.datos-editar #materias,
+.datos-editar #semestre,
+.datos-editar #grupo,
+.datos-editar #turno,
+.datos-editar #practica,
+.datos-editar #descripcion,
+.datos-editar #materiales,
+.datos-editar #equipo{
+	margin: 0 0 5px 0.5%;
+}
+
+.datos-editar #semestre,
+.datos-editar #grupo,
+.datos-editar #turno{
+	width: 32.83%;
+	float: left;
+}
+.datos-editar #tipo{
+	width: 33%;
+	float: left;
+}
+.datos-editar #periodo{
+	width: 33%;
+	float: left;
+}
+.datos-editar #buscar{
+	width: 33%;
+	margin: 0 0 5px 0.5%;
+	float: left;
+	height: 45px;
+	border: 1px solid #000;
+	border-radius: 4px;
+	display: inline-block;
+	cursor: pointer;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 25px;
+	padding: 8px;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+
+.boton-enviar,.boton-reprogramar{
+	background-color: #000;
+	background: transparent;
+	border: 1px solid #000;
+	border-radius: 4px;
+	display: inline-block;
+	cursor: pointer;
+	color: #000;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 30px;
+	padding: 12px;
+	text-decoration: none;
+	text-transform: uppercase;
+	width: 60%;
+	margin: 10px 0 0 20%;
+}
+.boton-enviar:hover,.boton-reprogramar:hover{
+	color: #fff;
+	background-color: #004574;
+	opacity: 0.8;
+}
+.wrapper-reportes{
+	box-sizing: border-box;
+	width: 100%;
+	margin: 0 auto;
+	padding: 10px 0 0 0;
+}
+.datos-reportes{
+	width: 70%;
+	float: left;
+}
+.datos-reportes .entrada-texto{
+	margin: 0 0 5px 0;
+}
+
+.datos-reportes #semestre,
+.datos-reportes #grupo,
+.datos-reportes #turno{
+	width: 33.3%;
+	float: left;
+}
+.botones-reportes{
+	width: 30%;
+	float: left;
+	padding: 0 0 0 10px;
+}
+.boton-buscar,.boton-reporte{
+	background-color: #000;
+	background: transparent;
+	border: 1px solid #000;
+	border-radius: 4px;
+	display: inline-block;
+	cursor: pointer;
+	color: #000;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 25px;
+	padding: 12px;
+	text-decoration: none;
+	text-transform: uppercase;
+	width: 100%;
+	margin: 0 0 5px 0;
+	height: 70px;
+}
+.boton-buscar:hover,.boton-reporte:hover{
+	color: #fff;
+	background-color: #004574;
+	opacity: 0.8;
+}
+.wrapper-reprogramar{
+	box-sizing: border-box;
+	width: 100%;
+	margin: 0 auto;
+	padding: 10px;
+}
+.datos-reprogramar{
+	box-sizing: border-box;
+	width: 100%;
+	float: left;
+}
+.datos-reprogramar .entrada-texto{
+	margin: 0 0 5px 0;
+}
+.datos-reprogramar .boton-buscar{
+	margin: 0 0 5px 0;
+}
+
+.datos-reprogramar #fecha1,
+.datos-reprogramar #fecha2,
+.datos-reprogramar #fecha3,
+.datos-reprogramar #fecha4,
+.datos-reprogramar #fecha5{
+	width: 28%;
+	margin: 5px 1% 0 0;
+	float: left;
+}
+.datos-reprogramar #horas_sesion1,
+.datos-reprogramar #horas_sesion2,
+.datos-reprogramar #horas_sesion3,
+.datos-reprogramar #horas_sesion4,
+.datos-reprogramar #horas_sesion5{
+	width: 29%;
+	float: left;
+}
+.datos-reprogramar .sesiones{
+	text-align: center;
+	box-sizing: border-box;
+	width: 20%;
+	height: 35px;
+	font-size: 25px;
+	float: left;
+	margin: 10px 1% 0 0;
+}
+.datos-reprogramar input[type=checkbox]{
+	display: none;
+}
+.datos-reprogramar input[type=checkbox]:checked + .sesiones{
+	background-color: #9BD1E5;
+	border-radius: 15px;
+}
+
+.justificante-reprogramar{
+	width: 100%;
+	float: left;
+	padding: 15px 0 0 0;
+}
+.radio-justificantes{
+	float: left;
+	width: 100%;
+	font-size: 25px;
+	margin: 5px 0 0 0;
+	cursor: pointer;
+}
+.justificante-reprogramar input[type="radio"]{
+	display: none;
+}
+.justificante-reprogramar input[type="radio"]:checked+label{
+	background-color: #9BD1E5;
+	border-radius: 4px;
+}
+
+.horas-reprogramar{
+	background-color: #fefefe;
+	margin: auto;
+	padding: 20px;
+	border: 1px solid #888;
+	width: 60%;
+}
+
+.wrapper-realizacion{
+	box-sizing: border-box;
+	width: 100%;
+	float: left;
+	padding: 10px 0 0 0;
+}
+.datos-realizacion{
+	width: 99%;
+	float: left;
+}
+.datos-realizacion #nombre,
+.datos-realizacion #tipo,
+.datos-realizacion #opciones,
+.datos-realizacion #resultados{
+	margin: 0 0 5px 0.5%;
+}
+
+.datos-realizacion #tipo,
+.datos-realizacion #periodo{
+	width: 49.5%;
+	float: left;
+}
+.datos-realizacion #buscar{
+	width: 100%;
+	margin: 0 0 5px 0.5%;
+	float: left;
+	height: 45px;
+	border: 1px solid #000;
+	border-radius: 4px;
+	display: inline-block;
+	cursor: pointer;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 25px;
+	padding: 8px;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+.calificacion-realizacion{
+	box-sizing: border-box;
+	width: 49%;
+	padding: 5px 0 0 1%;
+	float: left;
+}
+.calificacion-realizacion .param-profesor{
+	box-sizing: border-box;
+	width: 100%;
+	font-size: 25px;
+	float: left;
+	margin: 10px 0 0 0;
+}
+.calificacion-realizacion input[type=checkbox]{
+	display: none;
+}
+.calificacion-realizacion input[type=checkbox]:checked + .param-profesor{
+	background-color: #9BD1E5;
+	border-radius: 4px;
+}
+.calificacion-realizacion textarea{
+	height: 150px;
+}
+.botones-realizacion{
+	box-sizing: border-box;
+	width: 48%;
+	margin: 1% 0 0 0;
+	float: left;
+}
+.botones-realizacion #enviar{
+	width: 100%;
+	margin: 0 auto;
+	float: left;
+	height: 100px;
+	border: 1px solid #000;
+	border-radius: 4px;
+	display: inline-block;
+	cursor: pointer;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 25px;
+	padding: 12px;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+.boton-enviar:hover{
+	color: #fff;
+	background-color: #004574;
+	opacity: 0.8;
+}
+.wrapper-validar{
+	box-sizing: border-box;
+	width: 100%;
+	float: left;
+	padding: 10px 0 0 0;
+	margin: 0 auto;
+}
+.datos-validar #nombre,
+.datos-validar #laboratorios,
+.datos-validar #practicas{
+	width: 99%;
+	margin: 0 0 5px 0.5%;
+}
+.datos-validar #visualizar{
+	width: 32%;
+	margin: 0 0 5px 0.5%;
+	float: left;
+	height: 45px;
+	padding: 8px;
+	font-size: 23px;
+}
+.practicas{
+	background-color: #fefefe;
+	margin: auto;
+	padding: 20px;
+	border: 1px solid #888;
+	width: 80%;
+	margin-bottom: 20px;
+}
+.practicas #laboratorio{
+	width: 60%;
+	float: left;
+	margin: 0 auto;
+	border: 0;
+}
+.practicas #fecha_visualizar{
+	width: 33%;
+	float: left;
+	margin: 0 0 0 1%;
+	border: 0;
+}
+.practicas #fecha_visualizar:hover{
+	opacity: 1.0;
+	background-color: #fff;
+}
+.practicas #etiqueta_practicas{
+	width: 100%;
+	text-align: center;
+	border: 0;
+}
+.practicas .etiqueta_practica{
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	outline: none;
+	width: 100%;
+	border: none;
+	border-radius: 25px;
+	border: 1px solid #000;
+	margin: 0 0 5px 0;
+	font: 20px Arial, Helvetica, sans-serif;
+	height: 45px;
+	color: #000;
+	padding-left: 15px;
+}
+.practicas .etiqueta_maestro,
+.practicas .etiqueta_materia,
+.practicas .etiqueta_materiales,
+.practicas .etiqueta_equipo{
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	outline: none;
+	width: 98%;
+	border: none;
+	border-radius: 25px;
+	border: 1px solid #000;
+	margin: 0 0 5px 2%;
+	font: 20px Arial, Helvetica, sans-serif;
+	height: 45px;
+	color: #000;
+	padding-left: 15px;
+}
+.practicas .etiqueta_materiales,
+.practicas .etiqueta_equipo{
+	height: 100px;
+}
+
+.practicas #laboratorio:hover,
+.practicas #etiqueta_practicas:hover{
+	background-color: #fff;
+	opacity: 1.0;
+}
+
+.datos-validar #fecha{
+	width: 33%;
+	margin: 0 0 5px 0.5%;
+	float: left;
+}
+.datos-validar #buscar{
+	float: left;
+	width: 33%;
+	height: 45px;
+	border: 1px solid #000;
+	border-radius: 4px;
+	display: inline-block;
+	cursor: pointer;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 23px;
+	padding: 8px;
+	text-decoration: none;
+	text-transform: uppercase;
+	margin: 0 0 0 0.5%;
+}
+.datos-validar .boton-buscar:hover{
+	color: #fff;
+	background-color: #004574;
+	opacity: 0.8;
+}
+.datos-validar #alumnos-programados{
+	width: 49.5%;
+	margin: 0 0.5% 5px 0.5%;
+	float: left;
+}
+.datos-validar #alumnos-asistencia{
+	width: 49%;
+	float: left;
+}
+
+.datos-validar #materiales,
+.datos-validar #equipo,
+.datos-validar #observacion_profesor,
+.datos-validar #fallas,
+.datos-validar #seguimiento,
+.datos-validar #observaciones{
+	width: 99%;
+	float: left;
+	margin: 0 0 5px 0.5%;
+}
+.datos-validar .param-validar{
+	box-sizing: border-box;
+	width: 100%;
+	font-size: 19px;
+	float: left;
+	padding: 0 0 0 1%;
+	font-size: 30px;
+	margin: 10px 0 0 0;
+}
+.datos-validar input[type=checkbox]{
+	display: none;
+}
+.datos-validar input[type=checkbox]:checked + .param-validar{
+	background-color: #9BD1E5;
+	border-radius: 4px;
+}
+.datos-validar .boton-validar{
+	margin: 30px 0 10px 20%;
+	float: left;
+	width: 60%;
+	height: 45px;
+	border: 1px solid #000;
+	border-radius: 4px;
+	display: inline-block;
+	cursor: pointer;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 25px;
+	padding: 8px;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+.datos-validar .boton-validar:hover{
+	color: #fff;
+	background-color: #004574;
+	opacity: 0.8;
+}
+.wrapper-jefes{
+	box-sizing: border-box;
+	width: 100%;
+	float: left;
+}
+.datos-jefes{
+	padding: 10px;
+}
+.datos-jefes .entrada-texto{
+	margin: 0 0 5px 0;
+}
+.boton-jefes{
+	background-color: #000;
+	background: transparent;
+	border: 1px solid #000;
+	border-radius: 4px;
+	display: inline-block;
+	cursor: pointer;
+	color: #000;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 30px;
+	padding: 12px;
+	text-decoration: none;
+	text-transform: uppercase;
+	width: 60%;
+	margin: 0 0 10px 20%;
+}
+.boton-jefes:hover{
+	color: #fff;
+	background-color: #004574;
+	opacity: 0.8;
+}
+.relacion-practicas{
+	width: 100%;
+	height: 450px;
+	margin: 2% 0 0 0;
+	float: left;
+}
+.grafico-reprogramaciones{
+	width: 100%;
+	height: 450px;
+	margin: 2% 0 0 0;
+	float: left;
+}
+.grafico-indicadores{
+	width: 100%;
+	height: 450px;
+	margin: 2% 0 0 0;
+	float: left;
+}
+::-webkit-input-placeholder{
+	color: rgba(0,0,0,1);
+}
+::-moz-input-placeholder{
+	color: rgba(0,0,0,1);
+}
+::-webkit-inner-spin-button{display: none;}
+
+@media screen and (max-width: 1980px){
+	.relacion-practicas,
+	.grafico-indicadores,
+	.grafico-reprogramaciones{
+		width: 100%;
+	}
+}
+
+@media screen and (max-width: 650px){
+	.topnav i{
+		display: block;
+	}
+	.horas,
+	.datos{
+		width: 100%; margin-left: 0;
+	}
+
+	.form-datos input[type="submit"]{
+		margin-top: 5%;
+	}
+	.indicadores{
+		width: 98%;
+	}
+	.entrada-texto{
+		font: 18px Arial, Helvetica, sans-serif;
+		padding-left: 10px;
+	}
+	.datos-registrar,
+	.horas-registrar,
+	.datos-reportes,
+	.botones-reportes,
+	.datos-reprogramar,
+	.horas-reprogramar,
+	.datos-jefes,
+	.justificante-reprogramar,
+	.datos-realizacion,
+	.calificacion-realizacion,
+	.botones-realizacion,
+	.datos-editar,
+	.botones-editar,
+	.acerca,
+	.wrapper-validar{
+		width: 100%;
+		padding: 10px 5px 0 8%;
+	}
+	.practicas{
+		width: 85%;
+		margin-left: 10%;
+	}
+	.practicas #laboratorio{
+		font-size: 16px;
+	}
+	.datos-validar #fecha{
+		width: 100%;
+	}
+	.practicas #fecha_visualizar{
+		width: 50%;
+		float: left;
+		margin: 0 0 0 1%;
+		border: 0;
+	}
+	.practicas #fecha_visualizar:hover{
+		opacity: 1.0;
+		background-color: #fff;
+	}
+	.practicas .etiqueta_practica{
+		margin: 0 0 5px 0;
+		font-size: 16px;
+		height: 35px;
+		padding-left: 10px;
+	}
+	.practicas .etiqueta_maestro,
+	.practicas .etiqueta_materia,
+	.practicas .etiqueta_materiales,
+	.practicas .etiqueta_equipo{
+		font-size: 16px;
+		height: 35px;
+		padding-left: 10px;
+	}
+	.practicas .etiqueta_materiales,
+	.practicas .etiqueta_equipo{
+		height: 80px;
+	}
+	.datos-validar #visualizar{
+		font-size: 16px;
+		width: 50%;
+	}
+	.datos-validar #buscar{
+		font-size: 16px;
+		width: 49%;
+	}
+	.datos-reportes .entrada-texto,
+	.datos-registrar .entrada-texto,
+	.datos-jefes .entrada-texto{
+		font-size: 16px;
+	}
+	.boton-jefes{
+		font-size: 25px;
+	}
+	.jefes-boton{
+		height: 70px;
+		width: 98%;
+		margin-left: 1%;
+		margin-top: 1%;
+	}
+	.relacion-practicas{
+		width: 100%;
+		z-index: -1;
+	}
+	#topnav a{
+		position: fixed;
+		left: -215px;
+		color: #fff;
+		padding: 12px;
+		text-decoration: none;
+		font-size: 20px;
+		margin: 0 auto;
+		background-color: #2978A0;
+		transition: 0.35s;
+		width: 250px;
+		text-align: left;
+		border-radius: 0 20px 20px 0;
+		z-index: 2;
+	}	
+	#topnav a:hover{
+		left: 0;
+	}
+	#registro{
+		top: 13px;
+	}
+	#editar{
+		top: 68px;
+	}
+	#reportes{
+		top: 123px;
+	}
+	#reprogramar{
+		top: 178px;
+	}
+	#realizar{
+		top: 233px;
+	}
+	#validar{
+		top: 288px;
+	}
+	#jefes{
+		top: 343px;
+	}
+	#acerca{
+		top: 398px;
+	}
+	#salir{
+		top: 453px;
+	}
+
+}
